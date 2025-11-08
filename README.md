@@ -28,7 +28,7 @@ This concept can be extended for **IoT-based smart bins** with servo motors and 
 ```mermaid
 flowchart TD
     A[User Uploads or Captures Image] --> B[Image Preprocessing with TorchVision]
-    B --> C[Pretrained PyTorch Model (MobileNetV2)]
+    B --> C[Pretrained PyTorch Model MobileNetV2]
     C --> D[Prediction Layer]
     D --> E{Waste Type Identified?}
     E -->|Organic| F[Green Bin ♻️ Opens]
